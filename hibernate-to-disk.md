@@ -18,3 +18,6 @@ Hibernation is not an option by default and requires some simple work to establi
     * Save the file (`Ctrl-x, y, Enter`)
   2. Run `mkinitcpio -p linux` to generate initramfs.
 3. Use `systemctl hibernate` to hibernate!
+
+Notes:
+About 1.> I use resume=UUID="swap partition id from /etc/fstab file" like Manjaro setup and its work
